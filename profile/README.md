@@ -11,10 +11,10 @@
     1. [Blue stragglers model](#blue-stragglers-model)
     1. [Binary systems probabilities](#binary-systems-probabilities)
     1. [GAIA1](#gaia1)
-    1. [269 Gaia clusters](#269-gaia-clusters)
     1. [Eight \(?\) new Gaia clusters](#eight--new-gaia-clusters)
     1. [Comparision between CMD distances](#comparision-between-cmd-distances)
 1. [Doubtful](#doubtful)
+    1. [269 Gaia clusters](#269-gaia-clusters)
     1. [AD test for catalogued clusters](#ad-test-for-catalogued-clusters)
     1. [Four NGC clusters](#four-ngc-clusters)
     1. [Five clusters](#five-clusters)
@@ -25,10 +25,6 @@
 1. [Done](#done)
     1. [Distant clusters \(2022\)](#distant-clusters-2022)
     1. [pyUPMASK \(2021\)](#pyupmask-2021)
-1. [Forgotten](#forgotten)
-    1. [Parallax distances for DAML catalog](#parallax-distances-for-daml-catalog)
-    1. [Wolf–Lundmark–Melotte, Globular cluster](#wolf%E2%80%93lundmark%E2%80%93melotte-globular-cluster)
-    1. [13 new Giovanni clusters](#13-new-giovanni-clusters)
 
 <!-- /MarkdownTOC -->
 
@@ -58,6 +54,8 @@ Analysis of ~1500 clusters with Dias et al.
 
 
 
+
+
 ## Future projects
 
 ### NGC2516
@@ -78,11 +76,6 @@ distribution of q.
 
 Analysis of the GAIA1 cluster with Gaia EDR3 data.
 
-### 269 Gaia clusters
-
-Process the 269 clusters studied in Bossini et al (2019) with ASteCA to compare the ages, extinction, and distances they obtained using BASE-9.
-
-
 ### Eight (?) new Gaia clusters
 
 Process the eight (include GAIA3 and GAIA8?) new clusters found in recent studies.
@@ -93,7 +86,13 @@ Compare several distribution distances to see which one better recovers the
 true parameters of synthetic clusters.
 
 
+
+
 ## Doubtful
+
+### 269 Gaia clusters
+
+Process the 269 clusters studied in Bossini et al (2019) with ASteCA to compare the ages, extinction, and distances they obtained using BASE-9.
 
 ### AD test for catalogued clusters
 
@@ -143,21 +142,4 @@ Analysis of the distance to clusters with catalogued distances lager than 9 Kpc
 
 Development of a new membership probabilities method based on the UPMASK
 algorithm.
-
-
-
-## Forgotten
-
-### Parallax distances for DAML catalog
-
-Combining the unsupervised membership algorithm with the Bayesian parallax distance estimator in ASteCA, assign parallax distances (and membership probabilities) to the clusters in the DAML database.
-
-### Wolf–Lundmark–Melotte, Globular cluster
-
-Analysis of the WLM galaxy and its globular cluster.
-
-### 13 new Giovanni clusters
-
-There are 18 clusters in the set, but five of them were already processed 
-(HAF14, RUP41, RUP42, RUP44, RUP152)
 
