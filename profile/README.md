@@ -25,6 +25,7 @@
 1. [Done](#done)
     1. [Distant clusters \(2022\)](#distant-clusters-2022)
     1. [pyUPMASK \(2021\)](#pyupmask-2021)
+    1. [Sixteen clusters \(2020\)](#sixteen-clusters-2020)
 
 <!-- /MarkdownTOC -->
 
@@ -143,3 +144,6 @@ Analysis of the distance to clusters with catalogued distances lager than 9 Kpc
 Development of a new membership probabilities method based on the UPMASK
 algorithm.
 
+### Sixteen clusters (2020)
+
+Analysis of sixteen clusters
