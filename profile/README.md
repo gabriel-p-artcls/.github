@@ -1,67 +1,5 @@
-<!-- MarkdownTOC levels="1,2,3" autolink="true" style="ordered" -->
-
-1. [Working](#working)
-    1. [Generalized King profile \(ell, theta\)](#generalized-king-profile-ell-theta)
-    1. [pyUPMASK membership](#pyupmask-membership)
-1. [Participating](#participating)
-    1. [32 Rain clusters](#32-rain-clusters)
-    1. [Wilton project](#wilton-project)
-1. [Future projects](#future-projects)
-    1. [NGC2516](#ngc2516)
-    1. [Blue stragglers model](#blue-stragglers-model)
-    1. [Binary systems probabilities](#binary-systems-probabilities)
-    1. [GAIA1](#gaia1)
-    1. [Eight \(?\) new Gaia clusters](#eight--new-gaia-clusters)
-    1. [Comparision between CMD distances](#comparision-between-cmd-distances)
-1. [Doubtful](#doubtful)
-    1. [269 Gaia clusters](#269-gaia-clusters)
-    1. [AD test for catalogued clusters](#ad-test-for-catalogued-clusters)
-    1. [Four NGC clusters](#four-ngc-clusters)
-    1. [Five clusters](#five-clusters)
-    1. [Clusters around TR24](#clusters-around-tr24)
-    1. [Five embedded cluster](#five-embedded-cluster)
-    1. [13 frames used in my PhD](#13-frames-used-in-my-phd)
-    1. [4 GCs](#4-gcs)
-1. [Done](#done)
-    1. [Distant clusters \(2022\)](#distant-clusters-2022)
-    1. [pyUPMASK \(2021\)](#pyupmask-2021)
-    1. [Sixteen clusters \(2020\)](#sixteen-clusters-2020)
-
-<!-- /MarkdownTOC -->
-
-
-## Working
-
-### Generalized King profile (ell, theta)
-
-Process the clusters in the Cantat-Gaudin (2020) database, fitting a 4-parameter generalized King profile to each, using the Bayesian implementation in ASteCA.
-
-
-### pyUPMASK membership
-
-Process as many clusters as possible with pyUPMASK to generate a new database of most probable members.
-
-
-
-## Participating
-
-### 32 Rain clusters
-
-Binary analysis for 32 open clusters
-
-### Wilton project
-
-Analysis of ~1500 clusters with Dias et al.
-
-
-
-
-
 ## Future projects
 
-### NGC2516
-
-Estimate the mass and binary fraction, mass ratio, etc.
 
 ### Blue stragglers model
 
@@ -90,15 +28,6 @@ true parameters of synthetic clusters.
 
 
 ## Doubtful
-
-### 269 Gaia clusters
-
-Process the 269 clusters studied in Bossini et al (2019) with ASteCA to compare the ages, extinction, and distances they obtained using BASE-9.
-
-### AD test for catalogued clusters
-
-Apply the AD test to the largest possible list of catalogued clusters. Assign
-classification, and estimate a coarse parallax distance.
 
 ### Four NGC clusters
 
@@ -131,19 +60,3 @@ Article that applied the `isochrones` package [Bochanski et al. (2018)](https://
 
 Four large globular clusters with DECam data
 
-
-
-## Done
-
-### Distant clusters (2022)
-
-Analysis of the distance to clusters with catalogued distances lager than 9 Kpc
-
-### pyUPMASK (2021)
-
-Development of a new membership probabilities method based on the UPMASK
-algorithm.
-
-### Sixteen clusters (2020)
-
-Analysis of sixteen clusters
